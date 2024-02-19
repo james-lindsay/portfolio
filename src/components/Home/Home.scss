@@ -1,0 +1,82 @@
+@use "../../Styles/Variables.scss" as *;
+
+.HomePage {
+    text-align: center;
+
+    header {
+        background-color: $primary-color;
+        color: white;
+        padding: 40px;
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    main {
+        padding: 20px;
+
+        .about-me {
+            margin-bottom: 40px;
+        }
+
+        .skills {
+            ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+
+                li {
+                    margin: 0 10px;
+                    padding: 10px 20px;
+                    background-color: $accent-color;
+                    color: white;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+        .projects {
+            .project {
+                margin-bottom: 40px;
+
+                h3 {
+                    margin-top: 0;
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .contact {
+            a {
+                color: $accent-color;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: $primary-color;
+        color: white;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
