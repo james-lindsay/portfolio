@@ -24,6 +24,7 @@ function HomePage() {
             <li>React.js</li>
             <li>Responsive Web Design</li>
             <li>NodeJs</li>
+            <li>MongoDB</li>
           </ul>
         </section>
         <section className="projects">
