@@ -19,6 +19,12 @@ const Projects = () => {
       description:
         "Stock Website for warehouses, made as a team using React, nodeJS, MySQL",
     },
+    {
+      id: 4,
+      title: "Band Site",
+      description:
+        "Website made using HTML, Sass and Java Script. Website is used to see upcoming dates for the bands tour dates",
+    },
   ];
 
   return (
