@@ -1,18 +1,46 @@
-import { useParams } from "react-router-dom";
+import React from "react";
 import "./ProjectsPage.scss";
+import { useParams } from "react-router-dom";
+
 const ProjectPage = ({ projects }) => {
   const { id } = useParams();
 
-  const project = projects.find((project) => project.id === parseInt(id));
+  const projectId = parseInt(id);
+
+  const project = projects.find((project) => project.id === projectId);
 
   if (!project) {
     return <div>Project not found</div>;
   }
 
   return (
-    <div>
-      <h2>{project.title}</h2>
-      <p>{project.description}</p>
+    <div className="project-details">
+      <h2 className="project-title">{project.title}</h2>
+      <p className="project-description">Description: {project.description}</p>
+      <div className="project-images">
+        <img
+          src={project.image_auth}
+          alt="Authentication"
+          className="project-image"
+        />
+        <img
+          src={project.image_reg}
+          alt="Registration"
+          className="project-image"
+        />
+        <img src={project.image_home} alt="Home" className="project-image" />
+        <img
+          src={project.image_homeDark}
+          alt="Dark Home"
+          className="project-image"
+        />
+        <img src={project.image_user} alt="User" className="project-image" />
+        <img
+          src={project.image_userDark}
+          alt="Dark User"
+          className="project-image"
+        />
+      </div>
     </div>
   );
 };
