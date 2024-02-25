@@ -18,7 +18,8 @@ function App() {
     {
       id: 1,
       title: "Social Circle",
-      description: "Social Media App that uses React, NodeJS and MongoDB",
+      description:
+        "The social media app is a modern platform powered by React, Node.js, and MongoDB. Users can securely register, log in, and interact with dynamic content including posts, images, and videos. Features include real-time messaging, personalized feeds, community building, and analytics insights. The app prioritizes scalability, performance, and user engagement, fostering connections and collaboration in a vibrant online community",
       image_auth: `${Auth}`,
       image_reg: `${Reg}`,
       image_user: `${User}`,
