@@ -31,13 +31,14 @@ function App() {
     {
       id: 2,
       title: "Travel Site",
-      description: "Travel Website made using HTML & CSS",
+      description:
+        "The travel website, built with HTML and CSS, offers an immersive platform for travelers to explore destinations, plan itineraries, and book accommodations",
     },
     {
       id: 3,
       title: "InStock",
       description:
-        "Stock Website for warehouses, made as a team using React, nodeJS, MySQL",
+        "The stock website for warehouses, built with React, Node.js, and MySQL, streamlines inventory management with features for tracking, order processing, and supplier management. It offers robust reporting, automation, and integration capabilities, ensuring security, scalability, and performance. The website empowers warehouse managers to optimize operations, improve efficiency, and drive productivity in today's dynamic business landscape.",
     },
     {
       id: 4,
