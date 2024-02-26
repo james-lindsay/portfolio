@@ -18,28 +18,60 @@ const ProjectPage = ({ projects }) => {
       <h2 className="project-title">{project.title}</h2>
       <p className="project-description">Description: {project.description}</p>
       <div className="project-images">
-        <img
-          src={project.image_auth}
-          alt="Authentication"
-          className="project-image"
-        />
-        <img
-          src={project.image_reg}
-          alt="Registration"
-          className="project-image"
-        />
-        <img src={project.image_home} alt="Home" className="project-image" />
-        <img
-          src={project.image_homeDark}
-          alt="Dark Home"
-          className="project-image"
-        />
-        <img src={project.image_user} alt="User" className="project-image" />
-        <img
-          src={project.image_userDark}
-          alt="Dark User"
-          className="project-image"
-        />
+        {project.id === 1 && (
+          <>
+            <img src={project.image_reg} alt="Reg" className="project-image" />
+            <img
+              src={project.image_auth}
+              alt="Auth"
+              className="project-image"
+            />
+            <img
+              src={project.image_home}
+              alt="Home"
+              className="project-image"
+            />
+            <img
+              src={project.image_homeDark}
+              alt="Dark Home"
+              className="project-image"
+            />
+            <img
+              src={project.image_user}
+              alt="User"
+              className="project-image"
+            />
+            <img
+              src={project.image_userDark}
+              alt="Dark User"
+              className="project-image"
+            />
+          </>
+        )}
+        {project.id === 2 && (
+          <>
+            <img
+              src={project.image_home}
+              alt="Home"
+              className="project-image"
+            />
+            <img
+              src={project.image_homeDark}
+              alt="Dark Home"
+              className="project-image"
+            />
+            <img
+              src={project.image_user}
+              alt="User"
+              className="project-image"
+            />
+            <img
+              src={project.image_userDark}
+              alt="Dark User"
+              className="project-image"
+            />
+          </>
+        )}
       </div>
     </div>
   );

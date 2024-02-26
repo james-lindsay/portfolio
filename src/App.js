@@ -8,7 +8,7 @@ import ProjectPage from "./components/ProjectsPage/ProjectsPage";
 import Auth from "./Images/SS-Auth.png";
 import Reg from "./Images/SS-Regpage.png";
 import User from "./Images/SS-UserPage.png";
-import UserDark from "./Images/SS-UserPage.png";
+import UserDark from "./Images/SS-UserPageDark.png";
 import HomePage from "./Images/SS-Home.png";
 import HomeDark from "./Images/SS-HomeDark.png";
 import Login from "./Images/SS-Login.png";
