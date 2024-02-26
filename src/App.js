@@ -12,6 +12,13 @@ import UserDark from "./Images/SS-UserPageDark.png";
 import HomePage from "./Images/SS-Home.png";
 import HomeDark from "./Images/SS-HomeDark.png";
 import Login from "./Images/SS-Login.png";
+import Warehouse from "./Images/IS-Warehouses.png";
+import WarehouseEdit from "./Images/IS-EditWarehouse.png";
+import WarehouseStock from "./Images/IS-WarehouseStock.png";
+import Inventory from "./Images/IS-Inventory.png";
+import InventoryAdd from "./Images/IS-InventoryAdd.png";
+import InventoryEdit from "./Images/IS-InventoryEdit.png";
+import InventoryStock from "./Images/IS-InventoryStock.png";
 
 function App() {
   const projects = [
@@ -39,6 +46,13 @@ function App() {
       title: "InStock",
       description:
         "The stock website for warehouses, built with React, Node.js, and MySQL, streamlines inventory management with features for tracking, order processing, and supplier management. It offers robust reporting, automation, and integration capabilities, ensuring security, scalability, and performance. The website empowers warehouse managers to optimize operations, improve efficiency, and drive productivity in today's dynamic business landscape.",
+      image_Warehouse: `${Warehouse}`,
+      image_WarehouseEdit: `${WarehouseEdit}`,
+      image_WarehouseStock: `${WarehouseStock}`,
+      image_Inventory: `${Inventory}`,
+      image_InventoryAdd: `${InventoryAdd}`,
+      image_InventoryEdit: `${InventoryEdit}`,
+      image_InventoryStock: `${InventoryStock}`,
     },
     {
       id: 4,

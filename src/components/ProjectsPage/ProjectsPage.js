@@ -48,26 +48,36 @@ const ProjectPage = ({ projects }) => {
             />
           </>
         )}
-        {project.id === 2 && (
+        {project.id === 3 && (
           <>
             <img
-              src={project.image_home}
-              alt="Home"
+              src={project.image_Warehouse}
+              alt="Warehouse"
               className="project-image"
             />
             <img
-              src={project.image_homeDark}
-              alt="Dark Home"
+              src={project.image_WarehouseEdit}
+              alt="Warehouse Edit"
               className="project-image"
             />
             <img
-              src={project.image_user}
-              alt="User"
+              src={project.image_WarehouseStock}
+              alt="Warehouse Stock"
               className="project-image"
             />
             <img
-              src={project.image_userDark}
-              alt="Dark User"
+              src={project.image_Inventory}
+              alt="Inventory"
+              className="project-image"
+            />
+            <img
+              src={project.image_InventoryAdd}
+              alt="Inventory Add"
+              className="project-image"
+            />
+            <img
+              src={project.image_InventoryStock}
+              alt="Inventory Stock"
               className="project-image"
             />
           </>
