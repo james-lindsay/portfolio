@@ -5,6 +5,7 @@ const Projects = ({ projects }) => {
   return (
     <section className="projects">
       <h2>Projects</h2>
+      <p className="Projects__text">Click on project to view Images</p>
       <div className="project-list">
         {projects.map((project) => (
           <Link

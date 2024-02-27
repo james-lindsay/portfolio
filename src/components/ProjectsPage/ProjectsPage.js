@@ -48,6 +48,45 @@ const ProjectPage = ({ projects }) => {
             />
           </>
         )}
+        {project.id === 4 && (
+          <>
+            <img
+              src={project.image_Home}
+              alt="BS Home 1"
+              className="project-image"
+            />
+            <img
+              src={project.image_Home2}
+              alt="BS Home2"
+              className="project-image"
+            />
+            <img
+              src={project.image_Gallary}
+              alt="BS Gallary"
+              className="project-image"
+            />
+            <img
+              src={project.image_About}
+              alt="BS About"
+              className="project-image"
+            />
+            <img
+              src={project.image_Shows}
+              alt="BS Shows"
+              className="project-image"
+            />
+            <img
+              src={project.image_Comments}
+              alt="BS Comments"
+              className="project-image"
+            />
+            <img
+              src={project.image_Footer}
+              alt="BS Footer"
+              className="project-image"
+            />
+          </>
+        )}
         {project.id === 3 && (
           <>
             <img
