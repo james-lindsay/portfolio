@@ -16,13 +16,8 @@ const Header = () => {
           </Link>
         </li>
         <li className="navbar__item">
-          <Link to="/cv" className="navbar__link">
+          <Link to="/CV" className="navbar__link">
             CV
-          </Link>
-        </li>
-        <li className="navbar__item">
-          <Link to="/Contact" className="navbar__link">
-            Contact
           </Link>
         </li>
       </ul>

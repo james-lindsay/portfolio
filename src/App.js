@@ -37,6 +37,7 @@ import TPAbout from "./Images/TP-About.png";
 import TPDetails from "./Images/TP-Details.png";
 import TPHome from "./Images/TP-Home.png";
 import TPPostJob from "./Images/TP-Postjob.png";
+import CV from "./components/CV/CV";
 
 function App() {
   const projects = [
@@ -110,7 +111,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects projects={projects} />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/CV" element={<CV />} />
           <Route
             path="/projects/:id"
             element={<ProjectPage projects={projects} />}
