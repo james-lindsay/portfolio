@@ -26,6 +26,17 @@ import BSFooter from "./Images/BS-Footer.png";
 import BSShows from "./Images/BS-Shows.png";
 import BSAbout from "./Images/BS-About.png";
 import BSGallary from "./Images/BS-Gallary.png";
+import TSHawaii from "./Images/TS_Hawaii.png";
+import TSIceland from "./Images/TS-Iceland.png";
+import TSCards from "./Images/TS-Cards.png";
+import TSFooter from "./Images/TS-Footer.png";
+import TSGreece from "./Images/TS-Greece.png";
+import TSHero from "./Images/TS-Hero.png";
+import TPFooter from "./Images/TP_footer.png";
+import TPAbout from "./Images/TP-About.png";
+import TPDetails from "./Images/TP-Details.png";
+import TPHome from "./Images/TP-Home.png";
+import TPPostJob from "./Images/TP-Postjob.png";
 
 function App() {
   const projects = [
@@ -47,6 +58,12 @@ function App() {
       title: "Travel Site",
       description:
         "The travel website, built with HTML and CSS, offers an immersive platform for travelers to explore destinations and plan itineraries, made during 12-week bootcamp.",
+      image_Cards: `${TSCards}`,
+      image_Hero: `${TSHero}`,
+      image_Hawaii: `${TSHawaii}`,
+      image_Iceland: `${TSIceland}`,
+      image_Greece: `${TSGreece}`,
+      image_Footer: `${TSFooter}`,
     },
     {
       id: 3,
@@ -79,6 +96,11 @@ function App() {
       title: "Temp Plus",
       description:
         "Built with React, SASS, and Node.js, this project is a specialized job board exclusively designed for the construction industry. It enables users to post, search, and apply for construction-related job listings. The platform offers a seamless user experience with dynamic features tailored to meet the specific needs of the construction sector.",
+      image_Home: `${TPHome}`,
+      image_Details: `${TPDetails}`,
+      image_Footer: `${TPFooter}`,
+      image_About: `${TPAbout}`,
+      image_Post: `${TPPostJob}`,
     },
   ];
   return (
