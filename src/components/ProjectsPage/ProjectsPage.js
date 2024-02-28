@@ -187,6 +187,30 @@ const ProjectPage = ({ projects }) => {
           </>
         )}
       </div>
+      {project.id === 1 && (
+        <>
+          <p className="github">{project.Github}</p>
+          <p className="github">{project.Github_backend}</p>
+        </>
+      )}
+      {project.id === 2 && <p className="github">{project.Github}</p>}
+      {project.id === 3 && (
+        <>
+          <p className="github">{project.Github}</p>
+          <p className="github">{project.Github_backend}</p>
+        </>
+      )}
+      {project.id === 4 && (
+        <>
+          <p className="github">{project.Github}</p>
+        </>
+      )}
+      {project.id === 5 && (
+        <>
+          <p className="github">{project.Github}</p>
+          <p className="github">{project.Github_backend}</p>
+        </>
+      )}
     </div>
   );
 };

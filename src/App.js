@@ -53,6 +53,8 @@ function App() {
       image_home: `${HomePage}`,
       image_homeDark: `${HomeDark}`,
       image_login: `${Login}`,
+      Github: "https://github.com/james-lindsay/socialcircle-client",
+      Github_backend: "https://github.com/james-lindsay/socialcircle",
     },
     {
       id: 2,
@@ -65,6 +67,7 @@ function App() {
       image_Iceland: `${TSIceland}`,
       image_Greece: `${TSGreece}`,
       image_Footer: `${TSFooter}`,
+      Github: "https://github.com/james-lindsay/travel-site",
     },
     {
       id: 3,
@@ -78,6 +81,8 @@ function App() {
       image_InventoryAdd: `${InventoryAdd}`,
       image_InventoryEdit: `${InventoryEdit}`,
       image_InventoryStock: `${InventoryStock}`,
+      Github: "https://github.com/0xfullmetal/titanium-instock-frontend",
+      Github_backend: "https://github.com/0xfullmetal/titanium-instock-backend",
     },
     {
       id: 4,
@@ -91,6 +96,7 @@ function App() {
       image_Shows: `${BSShows}`,
       image_Footer: `${BSFooter}`,
       image_Comments: `${BSComments}`,
+      Github: "https://github.com/james-lindsay/bandsite",
     },
     {
       id: 5,
@@ -102,6 +108,9 @@ function App() {
       image_Footer: `${TPFooter}`,
       image_About: `${TPAbout}`,
       image_Post: `${TPPostJob}`,
+      Github:
+        "https://github.com/james-lindsay/tempplus-client/tree/main/Documents/tempplus-client",
+      Github_backend: "https://github.com/james-lindsay/tempplus-server",
     },
   ];
   return (
